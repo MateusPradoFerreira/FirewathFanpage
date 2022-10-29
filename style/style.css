@@ -1,0 +1,45 @@
+/*---------------------------------------------------*/
+/* COMPONENTS */
+/*---------------------------------------------------*/
+
+@import url(pages/components/vars.css);
+@import url(pages/components/components.css);
+
+/*---------------------------------------------------*/
+/* COMPONENTS */
+/*---------------------------------------------------*/
+
+@import url(pages/index.css);
+
+/*---------------------------------------------------*/
+/* BASIC DEFINITIONS */
+/*---------------------------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--global-font-family);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-palette-l-carmim);
+    grid-template-areas:
+        'header header header'
+        'imagem imagem imagem'
+        '. textos .'
+        'section section section'
+        'imagem-tow imagem-tow imagem-tow'
+        'footer footer footer';
+    grid-template-columns: 1fr 560px 1fr;
+}
+
+@media (min-width: 560px) {
+    body {
+        display: grid;
+    }
+}

@@ -1,0 +1,46 @@
+/*---------------------------------------------------*/
+/* FONSTS */
+/*---------------------------------------------------*/
+
+@font-face {
+    font-family: 'Verlag';
+    src: url('fontes/Verlag-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---------------------------------------------------*/
+/* BASIC VARS */
+/*---------------------------------------------------*/
+
+:root {
+    --base-color-red: red;
+    --base-color-blue: blue;
+    --base-color-green: green;
+    --base-color-yellow: yellow;
+    --base-color-black: black;
+    --base-color-grey: grey;
+    --base-color-white: white;
+}
+
+:root {
+    --global-font-family: 'Verlag';
+    --global-border-radius: 5px;
+}
+
+/*---------------------------------------------------*/
+/* COMPONENTS */
+/*---------------------------------------------------*/
+
+:root {
+    --color-palette-b-carmim: #2E1029;
+    --color-palette-m-carmim: #2D112A;
+    --color-palette-l-carmim: #30102B;
+    --color-palette-carmim: #650D2E;
+    --color-palette-ll-carmim: #ca3c4c;
+    --color-palette-grey: #585B58;
+    --color-palette-orange: #CB5038;
+    --color-palette-l-orange: #e37d3d;
+    --color-palette-salmom: #D2C6A6;
+    --color-palette-l-salmom: #FDE0CB;
+}
